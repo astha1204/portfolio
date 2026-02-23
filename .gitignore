@@ -1,0 +1,72 @@
+# ========================
+# Python / Backend
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+env/
+
+# Environment variables — NEVER commit your API key
+.env
+*.env
+!.env.example
+
+# SQLite database
+*.db
+*.sqlite
+*.sqlite3
+
+# ========================
+# Node / Frontend
+# ========================
+node_modules/
+build/
+dist/
+.npm/
+
+# React env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.suo
+*.user
+
+# ========================
+# Docker
+# ========================
+.dockerignore
+
+# ========================
+# Misc
+# ========================
+*.log
+*.tmp
+*.cache
