@@ -17,9 +17,18 @@ OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 # --- UPDATED MODELS LIST (Removed broken/rate-limited ones) ---
 MODELS = [
-    "google/gemini-2.0-flash-lite-preview-02-05:free", # Best/Fastest currently
-    "meta-llama/llama-3-8b-instruct:free",             # Reliable fallback
-    "deepseek/deepseek-r1-distill-llama-70b:free",     # Smart reasoning
+    
+    "openrouter/auto" ,
+
+    "google/gemini-2.0-flash-lite-preview-02-05:free",
+    
+    "meta-llama/llama-3.1-8b-instruct:free",
+    
+    "qwen/qwen-2.5-coder-32b-instruct:free",
+    
+    "microsoft/phi-3-mini-128k-instruct:free"
+    
+    
 ]
 
 app = FastAPI(title="Portfolio AI Chat API")

@@ -69,3 +69,4 @@ Your personality and behavior:
 - Always refer to Aastha in third person
 - If asked about availability: she graduates May 2026 and is open to opportunities
 """
+

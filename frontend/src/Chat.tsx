@@ -56,7 +56,13 @@ const Chat: React.FC = () => {
   const inputRef = useRef<HTMLTextAreaElement>(null);
 
   useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    
+    if (messages.length > 1 || isLoading) {
+      messagesEndRef.current?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'nearest'
+      });
+    }
   }, [messages, isLoading]);
 
   const handleSend = useCallback(async (text?: string) => {

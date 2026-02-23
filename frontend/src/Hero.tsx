@@ -49,8 +49,7 @@ const Hero: React.FC = () => {
         <div className="hero__stats animate-fadeUp" style={{ animationDelay: '0.45s' }}>
           {[
             { value: '9.5', label: 'CGPA / 10' },
-            { value: '2', label: 'Gov. Internships' },
-            
+            { value: '2', label: 'Gov. Internships' },       
             { value: '95.8%', label: 'Class XII Score' },
           ].map(({ value, label }) => (
             <div className="hero__stat" key={label}>
@@ -80,8 +79,8 @@ const Hero: React.FC = () => {
 
         <div className="hero__socials animate-fadeUp" style={{ animationDelay: '0.65s' }}>
           {[
-            { label: 'GitHub', href: 'https://github.com/aastha-arora' },
-            { label: 'LinkedIn', href: 'https://linkedin.com/in/aastha-arora' },
+            { label: 'GitHub', href: 'https://github.com/aastha1204/' },
+            { label: 'LinkedIn', href: 'https://www.linkedin.com/in/aastha-arora-909b5726b/' },
             { label: 'Email', href: 'mailto:asthaarora1204@gmail.com' },
           ].map(({ label, href }) => (
             <a key={label} href={href} className="hero__social" target="_blank" rel="noreferrer">

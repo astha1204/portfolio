@@ -12,8 +12,8 @@ const Footer: React.FC = () => {
           </span>
         </div>
         <div className="footer__right">
-          <a href="https://github.com/aastha-arora" target="_blank" rel="noreferrer" className="footer__link">GitHub</a>
-          <a href="https://linkedin.com/in/aastha-arora" target="_blank" rel="noreferrer" className="footer__link">LinkedIn</a>
+          <a href="https://github.com/astha1204/" target="_blank" rel="noreferrer" className="footer__link">GitHub</a>
+          <a href="https://www.linkedin.com/in/aastha-arora-909b5726b/" target="_blank" rel="noreferrer" className="footer__link">LinkedIn</a>
           <a href="mailto:asthaarora1204@gmail.com" className="footer__link">Email</a>
         </div>
       </div>
