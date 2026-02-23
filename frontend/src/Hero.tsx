@@ -79,7 +79,7 @@ const Hero: React.FC = () => {
 
         <div className="hero__socials animate-fadeUp" style={{ animationDelay: '0.65s' }}>
           {[
-            { label: 'GitHub', href: 'https://github.com/aastha1204/' },
+            { label: 'GitHub', href: 'https://github.com/astha1204/' },
             { label: 'LinkedIn', href: 'https://www.linkedin.com/in/aastha-arora-909b5726b/' },
             { label: 'Email', href: 'mailto:asthaarora1204@gmail.com' },
           ].map(({ label, href }) => (

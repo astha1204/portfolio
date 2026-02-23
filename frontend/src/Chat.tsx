@@ -199,8 +199,8 @@ const Chat: React.FC = () => {
         <div className="contact-row">
           {[
             { icon: '✉', label: 'Email', value: 'asthaarora1204@gmail.com', href: 'mailto:asthaarora1204@gmail.com' },
-            { icon: '🔗', label: 'LinkedIn', value: 'linkedin.com/in/aastha-arora', href: 'https://linkedin.com/in/aastha-arora' },
-            { icon: '⬡', label: 'GitHub', value: 'github.com/aastha-arora', href: 'https://github.com/aastha-arora' },
+            { icon: '🔗', label: 'LinkedIn', value: 'linkedin.com/in/aastha-arora', href: 'https://www.linkedin.com/in/aastha-arora-909b5726b/' },
+            { icon: '⬡', label: 'GitHub', value: 'github.com/aastha-arora', href: 'https://github.com/astha1204/' },
             { icon: '📍', label: 'Location', value: 'New Delhi, India', href: null },
           ].map(({ icon, label, value, href }) => (
             <div key={label} className="contact-item">
